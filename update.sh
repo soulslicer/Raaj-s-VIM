@@ -151,6 +151,7 @@ case "$1" in
 
   all)
     sudo pip install jedi
+    sudo pip install pylint
     sudo sh $me repos
     sudo sh $me other
     echo
