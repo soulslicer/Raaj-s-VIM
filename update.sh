@@ -33,6 +33,7 @@ fi
 # This is a list of all plugins which are available via Git repos. git:// URLs
 # don't work.
 repos=(
+  https://github.com/davidhalter/jedi-vim
   https://github.com/hdima/python-syntax.git
   https://github.com/Lokaltog/vim-powerline.git
   https://github.com/StanAngeloff/php.vim.git
@@ -149,6 +150,7 @@ case "$1" in
   # HELP ----------------------------------------------------------------
 
   all)
+    sudo pip install jedi
     sudo sh $me repos
     sudo sh $me other
     echo

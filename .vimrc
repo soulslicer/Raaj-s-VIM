@@ -17,3 +17,6 @@ set hidden
 " just hit backspace without this one and
 " see for yourself
 set backspace=indent,eol,start
+
+:nmap \l :setlocal number!<CR>
+:nmap \o :set paste!<CR>
