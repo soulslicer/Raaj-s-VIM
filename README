@@ -1,0 +1,6 @@
+INSTRUCTIONS
+
+1. Create a .vim folder
+2. Clone the contents of this into the .vim directory
+3. Run -> sudo sh update.sh all
+4. Enjoy!
